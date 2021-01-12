@@ -1,8 +1,8 @@
 package com.cloud.learning.jwt;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @ClassName: JWTMain
@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Version: 1.0
  */
 @SpringBootApplication
-@MapperScan("com.cloud.learning.jwt.dal")
+@MapperScan("com.cloud.learning.jwt.dal.mapper")
 public class JWTMain {
     public static void main(String[] args) {
         SpringApplication.run(JWTMain.class,args);
