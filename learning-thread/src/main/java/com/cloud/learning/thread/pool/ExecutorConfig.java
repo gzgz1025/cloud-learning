@@ -43,7 +43,7 @@ public class ExecutorConfig {
         executor.setMaxPoolSize(maxPoolSize);
         //配置队列大小
         executor.setQueueCapacity(queueCapacity);
-        //配置
+        //配置线程活跃时间
         executor.setKeepAliveSeconds(keepAliveSeconds);
         //配置线程池中的线程的名称前缀  也可以从yml配置读取
         executor.setThreadNamePrefix("myExecutor-");
