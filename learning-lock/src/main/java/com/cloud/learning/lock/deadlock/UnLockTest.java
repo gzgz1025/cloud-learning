@@ -29,6 +29,7 @@ class LockAa implements Runnable {
         try {
             System.out.println(new Date().toString() + " LockA 开始执行");
             while (true) {
+                //获取许可
                 if (UnLockTest.a1.tryAcquire(1, TimeUnit.SECONDS)) {
                     System.out.println(new Date().toString() + " LockA 锁住 obj1");
                     if (UnLockTest.a2.tryAcquire(1, TimeUnit.SECONDS)) {

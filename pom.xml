@@ -14,6 +14,7 @@
         <module>learning-thread</module>
         <module>learning-lock</module>
         <module>learning-mysql</module>
+        <module>learning-cloud-xxljob</module>
     </modules>
 
     <parent>

@@ -32,6 +32,7 @@ public class TestDemo {
     private ResUserMapper mapper;
     @Autowired
     private UserService service;
+
     @Test
     public void test(){
 

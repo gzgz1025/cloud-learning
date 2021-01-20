@@ -2,26 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="learning-common" />
-        <module name="learning-thread" />
         <module name="learning-jwt" />
+        <module name="learning-common" />
+        <module name="learning-mysql" />
+        <module name="learning-thread" />
+        <module name="learning-lock" />
+        <module name="learning-cloud-xxljob" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-learning" target="1.8" />
+      <module name="learning-cloud-xxljob" target="1.8" />
       <module name="learning-common" target="1.8" />
       <module name="learning-jwt" target="1.8" />
+      <module name="learning-lock" target="1.8" />
+      <module name="learning-mysql" target="1.8" />
       <module name="learning-thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="learning-cloud-xxljob" options="-parameters" />
       <module name="learning-common" options="-parameters" />
       <module name="learning-jwt" options="-parameters" />
+      <module name="learning-lock" options="-parameters" />
+      <module name="learning-mysql" options="-parameters" />
       <module name="learning-thread" options="-parameters" />
     </option>
   </component>

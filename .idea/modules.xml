@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cloud-learning.iml" filepath="$PROJECT_DIR$/.idea/cloud-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-cloud-xxljob/learning-cloud-xxljob.iml" filepath="$PROJECT_DIR$/learning-cloud-xxljob/learning-cloud-xxljob.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-common/learning-common.iml" filepath="$PROJECT_DIR$/learning-common/learning-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-jwt/learning-jwt.iml" filepath="$PROJECT_DIR$/learning-jwt/learning-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-lock/learning-lock.iml" filepath="$PROJECT_DIR$/learning-lock/learning-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-mysql/learning-mysql.iml" filepath="$PROJECT_DIR$/learning-mysql/learning-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-thread/learning-thread.iml" filepath="$PROJECT_DIR$/learning-thread/learning-thread.iml" />
     </modules>
   </component>
