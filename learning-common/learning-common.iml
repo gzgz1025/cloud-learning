@@ -106,6 +106,9 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.13.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.zxing:core:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.zxing:javase:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-freemarker:2.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.2.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.3.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.3.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:2.3.5.RELEASE" level="project" />
