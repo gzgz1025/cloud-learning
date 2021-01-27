@@ -15,6 +15,7 @@
         <module>learning-lock</module>
         <module>learning-mysql</module>
         <module>learning-cloud-xxljob</module>
+        <module>learning-lintcode</module>
     </modules>
 
     <parent>
