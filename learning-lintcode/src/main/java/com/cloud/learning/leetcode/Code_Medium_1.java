@@ -3,6 +3,7 @@ package com.cloud.learning.leetcode;
 import java.util.List;
 
 /**
+ * 难度：中等
  * 给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。
  *
  * 请你将两个数相加，并以相同形式返回一个表示和的链表。
@@ -25,7 +26,7 @@ import java.util.List;
  * 输出：[8,9,9,9,0,0,0,1]
  *
  */
-public class Code_2 {
+public class Code_Medium_1 {
 
     public List<Integer> addTwoNumbers(ListNode l1, ListNode l2) {
         return null;
