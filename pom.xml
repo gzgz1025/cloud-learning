@@ -16,6 +16,7 @@
         <module>learning-mysql</module>
         <module>learning-cloud-xxljob</module>
         <module>learning-lintcode</module>
+        <module>learning-java</module>
     </modules>
 
     <parent>
