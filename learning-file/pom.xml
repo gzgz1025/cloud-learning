@@ -12,5 +12,30 @@
     <artifactId>learning-file</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>2.2.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cloud.learning</groupId>
+            <artifactId>learning-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+<!--            <scope>test</scope>-->
+        </dependency>
+
     </dependencies>
 </project>
