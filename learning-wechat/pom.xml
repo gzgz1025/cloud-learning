@@ -11,5 +11,23 @@
 
     <artifactId>learning-wechat</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.cloud.learning</groupId>
+            <artifactId>learning-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+            <version>3.9.7.B</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-miniapp</artifactId>
+            <version>3.9.7.B</version>
+        </dependency>
+    </dependencies>
 
 </project>
